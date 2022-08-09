@@ -67,12 +67,12 @@ sistema=$(dialog --stdout --inputmenu "Instalação via rede : SISTEMAS" 30 40 3
 
 if [ $sistema = "1" ] 
 	then 
-		dialog --yesno "Deseja instalar UBUNTU SEDUC ?" 6 40 && seduc || dialog --infobox "Instalação abortada." 6 40
+		dialog --yesno "Deseja instalar UBUNTU SEDUC ? ( TODO O DISCO SERÁ APAGADO)" 6 40 && seduc || dialog --infobox "Instalação abortada." 6 40
 fi
 
 if [ $sistema = "2" ] 
 	then 
-		dialog --yesno "Deseja instalar DEBIAN CREDE ?" 6 40 && echo ok || dialog --infobox "Instalação abortada." 6 40
+		dialog --yesno "Deseja instalar DEBIAN CREDE ? ( TODO O DISCO SERÁ APAGADO)" 6 40 && echo ok || dialog --infobox "Instalação abortada." 6 40
 fi
 
 #################################################
