@@ -131,7 +131,7 @@ fi
 
 if [ $sistema = "2" ] 
 	then 
-		dialog --yesno "Deseja instalar DEBIAN CREDE ? ( TODO O DISCO SERÁ APAGADO)" 6 50 && echo ok || dialog --infobox "Instalação abortada." 6 40
+		dialog --yesno "Deseja instalar DEBIAN CREDE ? ( TODO O DISCO SERÁ APAGADO)" 6 50 && crede || dialog --infobox "Instalação abortada." 6 40
 fi
 
 #################################################
